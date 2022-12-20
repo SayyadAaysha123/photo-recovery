@@ -31,18 +31,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.MainActivity"></activity>
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.SettingActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.OtherActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.OtherAlbumActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.AudioActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.AudioAlbumActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.VideoActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.RestoreResultActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.PhotosActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.VideoAlbumActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.AlbumActivity" />
-        <activity android:name="com.codexxa.bizzphotorecovery.activity.ScanningActivity" />
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.MainActivity"  android:exported="false" />
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.SettingActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.OtherActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.OtherAlbumActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.AudioActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.AudioAlbumActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.VideoActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.RestoreResultActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.PhotosActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.VideoAlbumActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.AlbumActivity" android:exported="false"/>
+        <activity android:name="com.codexxa.bizzphotorecovery.activity.ScanningActivity" android:exported="false"/>
 
         <provider
             android:name="androidx.core.content.FileProvider"
